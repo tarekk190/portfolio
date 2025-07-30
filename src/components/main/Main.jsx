@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./main.css";
 import { AnimatePresence, motion } from "framer-motion";
-import { myProjects } from "./myprojects";
 
 const Main = () => {
   const [currentActive, setcurrentActive] = useState("all");
